@@ -46,6 +46,7 @@ Based on this information above:
 - The dataset has 500 rows and 12 columns.
 - The dataset has 0 null values.
 
+## Data Cleaning
 
 Data transformations and cleaning tasks that might be needed include:
 
