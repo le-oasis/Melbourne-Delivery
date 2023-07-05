@@ -36,3 +36,33 @@ The aim of this project is to clean the data and prepare it for business analysi
 - Analyze the data.
 
     -  Highlight critical errors that need to be corrected before the BI analyst can make use of the data.
+
+
+
+## Understanding the Data
+
+Based on this information above:
+
+- The dataset has 500 rows and 12 columns.
+- The dataset has 0 null values.
+
+
+Data transformations and cleaning tasks that might be needed include:
+
+- Checking the data type of all columns to make sure they are in the appropriate format for analysis.
+- The `order_id`, `date`, `time`, `order_type`, `branch_code`, `order_items` columns datatypes need to be changed.
+- The `date` &  `time` need to be merged into a single column, renamed to `order_date` and converted to `datetime` dtype format for Parsing Dates.
+- Extracting the food items and their quantities from the `order_items` column into separate columns.
+- Checking the category column entries for case sensitivity (Checking if the values in the branch_code and order_type columns are consistent and correctly labeled.)
+- feature engineer the `order_date`  column, potentially separating them into year, month, day, and hour columns.
+- Removing any unnecessary or irrelevant columns.
+- Checking for outliers in numerical columns such as order_price, distance_to_customer_KM, and delivery_fee.
+- Checking if the customerHasloyalty? column only contains binary values (0 and 1).
+- Checking if the  `distance_to_customer_KM` column is consistent with the values in the `nodes.csv` file.
+- Checking if the `delivery_fee` column is consistent with the values in the `edges.csv`  file.
+- Checking if the `order_price` column is consistent with the values in the `order_items`  column.
+- Checking if the `order_price` column is consistent with the values in the  `delivery_fee` column.
+
+
+Remember, the goal of this process is to ensure that your dataset is clean, understandable, and ready for further Business Intelligence analysis.
+
