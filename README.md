@@ -67,3 +67,8 @@ Data transformations and cleaning tasks that might be needed include:
 
 Remember, the goal of this process is to ensure that your dataset is clean, understandable, and ready for further Business Intelligence analysis.
 
+## Google Colab Notebook
+
+The link to the Google Colab Notebook - [Melbourne Delivery](https://colab.research.google.com/drive/1n7pf2TB5SVoII47Y4gxOVBysItRSLpQd?usp=sharing)
+
+
