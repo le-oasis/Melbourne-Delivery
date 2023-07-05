@@ -39,7 +39,7 @@ The aim of this project is to clean the data and prepare it for business analysi
 
 
 
-## Understanding the Data
+## Understanding the Data
 
 Based on this information above:
 
